@@ -1,16 +1,16 @@
 {
-  "b": 209,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Menu_95e_95game",
   "name": "Menu_e_game",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
-  "r": 209,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 0,
   "uiSettings": {
     "grid": true,
     "gridB": 255,
@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5199999999999995
+    "zoomFactor": 0.16000000000000178
   },
   "objectsGroups": [],
   "variables": [],
@@ -32,13 +32,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Menu",
       "locked": false,
       "name": "Play_text",
       "persistentUuid": "d80c0c95-f165-4885-b955-cda3a87e1af4",
       "width": 0,
-      "x": 320,
-      "y": 320,
+      "x": 608,
+      "y": 352,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,13 +48,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Menu",
       "locked": false,
       "name": "Options_text",
       "persistentUuid": "82097cc2-a32d-4da9-8a4a-98f43771da16",
       "width": 0,
-      "x": 320,
-      "y": 384,
+      "x": 608,
+      "y": 448,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,13 +64,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Menu",
       "locked": false,
       "name": "Sair_text",
       "persistentUuid": "56064fe7-69e3-49f4-b5fd-19a76dc4c790",
       "width": 0,
-      "x": 320,
-      "y": 448,
+      "x": 608,
+      "y": 544,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,14 +80,126 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Menu",
       "locked": false,
       "name": "Titulo_game_text",
       "persistentUuid": "1cc368bf-6242-46d2-8c33-245f4b8986d7",
       "width": 0,
-      "x": 288,
-      "y": 160,
+      "x": 576,
+      "y": 192,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "",
+      "locked": false,
+      "name": "Chao_tillet",
+      "persistentUuid": "dc1042a0-f3e9-4d8c-bbba-cd2788987a0a",
+      "width": 480,
+      "x": 864,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "",
+      "locked": false,
+      "name": "Chao_tillet",
+      "persistentUuid": "9f06fa3c-813e-425c-9060-3f0d9cb960c7",
+      "width": 480,
+      "x": -64,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "",
+      "locked": false,
+      "name": "Grama",
+      "persistentUuid": "4dc559cc-cb2c-42fb-b6c7-ae7ffcac298e",
+      "width": 480,
+      "x": -64,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "",
+      "locked": false,
+      "name": "Grama",
+      "persistentUuid": "22b62513-d4d6-4488-af41-30dd7a004308",
+      "width": 480,
+      "x": 864,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "",
+      "locked": false,
+      "name": "Chap_concret_tillet",
+      "persistentUuid": "366e2250-7018-4d76-b039-7558a05b85d5",
+      "width": 384,
+      "x": 448,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 736,
+      "layer": "",
+      "locked": false,
+      "name": "Paredes",
+      "persistentUuid": "9b321e93-2779-42e7-8879-033623dd24f7",
+      "width": 32,
+      "x": 416,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "",
+      "locked": false,
+      "name": "Paredes",
+      "persistentUuid": "af2bdbd7-8d56-45bc-b350-03f4ae1db2fc",
+      "width": 32,
+      "x": 832,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -106,11 +218,11 @@
       "behaviors": [],
       "string": "Decator",
       "font": "aAdulsaScript.ttf",
-      "characterSize": 80,
+      "characterSize": 120,
       "color": {
         "b": 0,
-        "g": 0,
-        "r": 0
+        "g": 236,
+        "r": 255
       }
     },
     {
@@ -125,11 +237,11 @@
       "behaviors": [],
       "string": "Iniciar",
       "font": "aAdulsaScript.ttf",
-      "characterSize": 50,
+      "characterSize": 90,
       "color": {
         "b": 0,
-        "g": 0,
-        "r": 0
+        "g": 236,
+        "r": 255
       }
     },
     {
@@ -144,11 +256,11 @@
       "behaviors": [],
       "string": "Opcoes",
       "font": "aAdulsaScript.ttf",
-      "characterSize": 50,
+      "characterSize": 90,
       "color": {
         "b": 0,
-        "g": 0,
-        "r": 0
+        "g": 236,
+        "r": 255
       }
     },
     {
@@ -163,12 +275,120 @@
       "behaviors": [],
       "string": "Sair",
       "font": "aAdulsaScript.ttf",
-      "characterSize": 50,
+      "characterSize": 90,
       "color": {
         "b": 0,
-        "g": 0,
-        "r": 0
+        "g": 236,
+        "r": 255
       }
+    },
+    {
+      "height": 64,
+      "name": "Chao_tillet",
+      "tags": "",
+      "texture": "Models_sprites\\Chao_sprite-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 128,
+      "name": "Grama",
+      "tags": "",
+      "texture": "Models_sprites\\Grama_tillet-1-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 64,
+      "name": "Chap_concret_tillet",
+      "tags": "",
+      "texture": "Models_sprites\\Chao_concret_sprite-1-1-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "Paredes",
+      "tags": "",
+      "texture": "Models_sprites\\Paredes_esq_sprite-1-1-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "Luzes",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Luzes_apagadas",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Models_sprites\\Luzes_apagadas-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Luzes_acesas",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Models_sprites\\Luzes_acesas-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -285,6 +505,49 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 1835102791,
+      "ambientLightColorR": 83886080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parte_fora",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Brightness",
+          "name": "Brilho_fora",
+          "doubleParameters": {
+            "brightness": 0.6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 10611840,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Luzes",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 10075272,
+      "ambientLightColorR": -2147483632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Menu",
+      "visibility": false,
+      "cameras": [],
       "effects": []
     }
   ],

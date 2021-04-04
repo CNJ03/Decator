@@ -96,15 +96,33 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "file": "aAdulsaScript.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "aAdulsaScript.ttf",
+        "userAdded": false
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
   "variables": [],
-  "layouts": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu_e_game"
+    }
+  ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/alignobject"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

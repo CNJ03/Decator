@@ -157,6 +157,42 @@
         "name": "Models_sprites\\Luzes_apagadas-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Models_sprites/Player_sprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Models_sprites\\Player_sprite-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Models_sprites/fundo_parede_sprites-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Models_sprites\\fundo_parede_sprites-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Models_sprites/Player_sprite_parado-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Models_sprites\\Player_sprite_parado-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Models_sprites/parede_quebraveis_sprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Models_sprites\\parede_quebraveis_sprite-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

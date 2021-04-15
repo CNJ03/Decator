@@ -12,7 +12,7 @@
   "title": "",
   "v": 0,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridB": 255,
     "gridG": 180,
     "gridHeight": 32,
@@ -21,9 +21,9 @@
     "gridR": 158,
     "gridType": "rectangular",
     "gridWidth": 32,
-    "snap": true,
+    "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.16000000000000178
+    "zoomFactor": 0.5000000000000021
   },
   "objectsGroups": [],
   "variables": [],
@@ -95,79 +95,31 @@
     {
       "angle": 0,
       "customSize": true,
+      "height": 96,
+      "layer": "",
+      "locked": false,
+      "name": "Player",
+      "persistentUuid": "63d39ba1-ca30-4221-af57-8e1698c9b420",
+      "width": 96,
+      "x": 544,
+      "y": 288,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
       "height": 736,
       "layer": "",
       "locked": false,
-      "name": "Chao_tillet",
-      "persistentUuid": "dc1042a0-f3e9-4d8c-bbba-cd2788987a0a",
-      "width": 480,
-      "x": 864,
+      "name": "Fundo_parede",
+      "persistentUuid": "1b2596c0-1426-43a5-9d8b-1c635af84242",
+      "width": 1344,
+      "x": 0,
       "y": 0,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 736,
-      "layer": "",
-      "locked": false,
-      "name": "Chao_tillet",
-      "persistentUuid": "9f06fa3c-813e-425c-9060-3f0d9cb960c7",
-      "width": 480,
-      "x": -64,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 736,
-      "layer": "",
-      "locked": false,
-      "name": "Grama",
-      "persistentUuid": "4dc559cc-cb2c-42fb-b6c7-ae7ffcac298e",
-      "width": 480,
-      "x": -64,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 736,
-      "layer": "",
-      "locked": false,
-      "name": "Grama",
-      "persistentUuid": "22b62513-d4d6-4488-af41-30dd7a004308",
-      "width": 480,
-      "x": 864,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 736,
-      "layer": "",
-      "locked": false,
-      "name": "Chap_concret_tillet",
-      "persistentUuid": "366e2250-7018-4d76-b039-7558a05b85d5",
-      "width": 384,
-      "x": 448,
-      "y": 0,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -175,15 +127,15 @@
     {
       "angle": 180,
       "customSize": true,
-      "height": 736,
+      "height": 64,
       "layer": "",
       "locked": false,
-      "name": "Paredes",
-      "persistentUuid": "9b321e93-2779-42e7-8879-033623dd24f7",
-      "width": 32,
-      "x": 416,
-      "y": 0,
-      "zOrder": 2,
+      "name": "paredes_quebraveis",
+      "persistentUuid": "2e31427f-68b1-4d36-91f7-cbcf71bed472",
+      "width": 1344,
+      "x": 0,
+      "y": 656,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -191,15 +143,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 736,
+      "height": 64,
       "layer": "",
       "locked": false,
-      "name": "Paredes",
-      "persistentUuid": "af2bdbd7-8d56-45bc-b350-03f4ae1db2fc",
-      "width": 32,
-      "x": 832,
+      "name": "paredes_quebraveis",
+      "persistentUuid": "3fa8fbbb-4a8d-46f4-8afb-778ceb2d7103",
+      "width": 1344,
+      "x": 0,
       "y": 0,
-      "zOrder": 2,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -283,47 +235,7 @@
       }
     },
     {
-      "height": 64,
-      "name": "Chao_tillet",
-      "tags": "",
-      "texture": "Models_sprites\\Chao_sprite-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "height": 128,
-      "name": "Grama",
-      "tags": "",
-      "texture": "Models_sprites\\Grama_tillet-1-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "height": 64,
-      "name": "Chap_concret_tillet",
-      "tags": "",
-      "texture": "Models_sprites\\Chao_concret_sprite-1-1-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "height": 32,
-      "name": "Paredes",
-      "tags": "",
-      "texture": "Models_sprites\\Paredes_esq_sprite-1-1-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "name": "Luzes",
+      "name": "Player",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -331,7 +243,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Luzes_apagadas",
+          "name": "Player_sprite_parado",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -340,36 +252,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Models_sprites\\Luzes_apagadas-1-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Luzes_acesas",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Models_sprites\\Luzes_acesas-1-0.png",
+                  "image": "Models_sprites\\Player_sprite_parado-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -389,6 +272,26 @@
           ]
         }
       ]
+    },
+    {
+      "height": 32,
+      "name": "Fundo_parede",
+      "tags": "",
+      "texture": "Models_sprites\\fundo_parede_sprites-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "paredes_quebraveis",
+      "tags": "",
+      "texture": "Models_sprites\\parede_quebraveis_sprite-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -398,14 +301,14 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Alinhamento e configurações iniciais",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -474,6 +377,29 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AlignObject::ToScreenCentered"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAdaptGameResolutionAtRuntime"
+                  },
+                  "parameters": [
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -505,38 +431,6 @@
           "width": 0
         }
       ],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 1702453580,
-      "ambientLightColorG": 1835102791,
-      "ambientLightColorR": 83886080,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Parte_fora",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Brightness",
-          "name": "Brilho_fora",
-          "doubleParameters": {
-            "brightness": 0.6
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 1702453580,
-      "ambientLightColorG": 0,
-      "ambientLightColorR": 10611840,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Luzes",
-      "visibility": true,
-      "cameras": [],
       "effects": []
     },
     {
